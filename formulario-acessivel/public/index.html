@@ -1,5 +1,5 @@
  <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt=br">
 
 <head>
   <meta charset="UTF-8" />
@@ -13,31 +13,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-  <link href="./css/bootstrap.min.css" />
+  <link href="./assets/css/bootstrap.min.css" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
 
 
   <title>Formulario Acessivel</title>
 
-  <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all" />
-  <link href="vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all" />
+  <link href="../vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all" />
+  <link href="../vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all" />
   <!-- Font special for pages-->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i"
     rel="stylesheet" />
 
   <!-- Vendor CSS-->
-  <link href="vendor/select2/select2.min.css" rel="stylesheet" media="all" />
-  <link href="vendor/datepicker/daterangepicker.css" rel="stylesheet" media="all" />
+  <link href="../vendor/select2/select2.min.css" rel="stylesheet" media="all" />
+  <link href="../vendor/datepicker/daterangepicker.css" rel="stylesheet" media="all" />
 
-  <link rel="stylesheet" href="./css/bootstrap.min.css">
-  <link rel="stylesheet" href="./css/bootstrap.css">
-  <link href="css/main.css" rel="stylesheet" media="all" />
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/css/bootstrap.css">
+  <link href="./assets/css/main.css" rel="stylesheet" media="all" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.min.js"></script>
 
-  <script src="./js/index.js"></script>
+  
 
-  <script type="text/javascript">
+  <script type="text/javascript" defer>
     $("#telefone-value").mask("(00) 0000-00000");
     $("#cpf-value").mask("000.000.000-00");
   </script>
@@ -51,8 +51,8 @@
         <div class="card-heading">
           <h1 class="title">
             Formulário acessível
-            <button type="button" aria-hidden="true" tabindex="0" onclick="lerRotulo(`h1`)">
-              <img class="img-song" src="./img/audio.png" /></button>
+          
+              <img class="img-song" src="./assets/img/audio.png" /></button>
           </h1>
         </div>
         <div class="card-body">
@@ -61,30 +61,29 @@
               <div class="row">
                 <div class="col-md-6">
                   <label class="rotulo" id="primeiro-nome">Primeiro nome:
-                    <img src="./img/audio2.png" class="default" aria-hidden="true" tabindex="0"
-                      onclick="lerRotulo(`.rotulo#primeiro-nome`)"></img>
+                    <img src="./assets/img/audio2.png" class="default" aria-hidden="true" tabindex="0"></img>
                   </label>
                   <div class="input-group mb-3">
                     <input type="text" class="form-control" type="text" name="first_name" id="nome-value">
                     <div class="input-group-append">
                       <button class="btn btn-inp" type="button">
-                        <img src="./img/audio2.png" class="default" aria-hidden="true" tabindex="0"
-                          onclick="lerValor('#nome-value')"></img>
+                        <img src="./assets/img/audio2.png" class="default" aria-hidden="true" tabindex="0"
+                          ></img>
                       </button>
                     </div>
                   </div>
                 </div>
                 <div class="col-md-6">
                   <label class="rotulo" id="segundo-nome">Segundo nome:
-                    <img src="./img/audio2.png" class="default" aria-hidden="true" tabindex="0"
-                      onclick="lerRotulo(`.rotulo#segundo-nome`)"></img>
+                    <img src="./assets/img/audio2.png" class="default" aria-hidden="true" tabindex="0"
+                     ></img>
                   </label>
                   <div class="input-group mb-3">
                     <input type="text" class="form-control" type="text" name="first_name" id="seg-value">
                     <div class="input-group-append">
                       <button class="btn btn-inp" type="button">
-                        <img src="./img/audio2.png" class="default" aria-hidden="true" tabindex="0"
-                          onclick="lerValor('#seg-value')"></img>
+                        <img src="./assets/img/audio2.png" class="default" aria-hidden="true" tabindex="0"
+                          ></img>
                       </button>
                     </div>
                   </div>
@@ -93,30 +92,30 @@
               <div class="row">
                 <div class="col-md-6">
                   <label class="rotulo" id="cpf">CPF:
-                    <img src="./img/audio2.png" class="default" aria-hidden="true" tabindex="0"
-                      onclick="lerRotulo(`.rotulo#cpf`)"></img>
+                    <img src="./assets/img/audio2.png" class="default" aria-hidden="true" tabindex="0"
+                      ></img>
                   </label>
                   <div class="input-group mb-3">
                     <input type="text" class="form-control" type="text" name="first_name" id="cpf-value">
                     <div class="input-group-append">
                       <button class="btn btn-inp" type="button">
-                        <img src="./img/audio2.png" class="default" aria-hidden="true" tabindex="0"
-                          onclick="lerValor('#cpf-value')"></img>
+                        <img src="./assets/img/audio2.png" class="default" aria-hidden="true" tabindex="0"
+                          ></img>
                       </button>
                     </div>
                   </div>
                 </div>
                 <div class="col-md-6">
                   <label class="rotulo" id="dtnasc">Data de nascimento:
-                    <img src="./img/audio2.png" class="default" aria-hidden="true" tabindex="0"
-                      onclick="lerRotulo(`.rotulo#dtnasc`)"></img>
+                    <img src="./assets/img/audio2.png" class="default" aria-hidden="true" tabindex="0"
+                      ></img>
                   </label>
                   <div class="input-group mb-3">
                     <input class="rotulo datepicker form-control" type="date" id="dtNasc-value" name="dia">
                     <div class="input-group-append">
                       <button class="btn btn-inp" type="button">
-                        <img src="./img/audio2.png" class="default" aria-hidden="true" tabindex="0"
-                          onclick="lerValor('.rotulo#dtNasc-value')"></img>
+                        <img src="./assets/img/audio2.png" class="default" aria-hidden="true" tabindex="0"
+                          ></img>
                       </button>
                     </div>
                   </div>
@@ -125,30 +124,30 @@
               <div class="row">
                 <div class="col-md-6">
                   <label class="rotulo" id="email">E-mail:
-                    <img src="./img/audio2.png" class="default" aria-hidden="true" tabindex="0"
-                      onclick="lerRotulo(`.rotulo#email`)"></img>
+                    <img src="./assets/img/audio2.png" class="default" aria-hidden="true" tabindex="0"
+                      ></img>
                   </label>
                   <div class="input-group mb-3">
                     <input type="text" class="form-control" id="email-value">
                     <div class="input-group-append">
                       <button class="btn btn-inp" type="button">
-                        <img src="./img/audio2.png" class="default" aria-hidden="true" tabindex="0"
-                          onclick="lerValor('#email-value')"></img>
+                        <img src="./assets/img/audio2.png" class="default" aria-hidden="true" tabindex="0"
+                          ></img>
                       </button>
                     </div>
                   </div>
                 </div>
                 <div class="col-md-6">
                   <label class="rotulo" id="tel">Telefone:
-                    <img src="./img/audio2.png" class="default" aria-hidden="true" tabindex="0"
-                      onclick="lerRotulo(`.rotulo#tel`)"></img>
+                    <img src="./assets/img/audio2.png" class="default" aria-hidden="true" tabindex="0"
+                      ></img>
                   </label>
                   <div class="input-group mb-3">
                     <input id="telefone-value" class="form-control">
                     <div class="input-group-append">
                       <button class="btn btn-inp" type="button">
-                        <img src="./img/audio2.png" class="default" aria-hidden="true" tabindex="0"
-                          onclick="lerValor('#telefone-value')"></img>
+                        <img src="./assets/img/audio2.png" class="default" aria-hidden="true" tabindex="0"
+                         ></img>
                       </button>
                     </div>
                   </div>
@@ -157,16 +156,16 @@
               <div class="row">
                 <div class="col-md-6">
                   <label id="sexo" class="label label--block" >Sexo: 
-                    <img src="./img/audio2.png" class="default" aria-hidden="true" tabindex="0"
-                      onclick="lerRotulo(`#sexo`)"></img>
+                    <img src="./assets/img/audio2.png" class="default" aria-hidden="true" tabindex="0"
+                      ></img>
                   </label>
                   <div class="p-t-15">
                     <label id="s" class="radio-container m-r-55">Feminino
-                      <input id="s-value" type="radio" checked="checked" name="exist" onclick="lerRotulo(`#s`)"/>
+                      <input id="s-value" type="radio" checked="checked" name="exist" value="Feminino"/>
                       <span class="checkmark"></span>                      
                     </label>
                     <label id="n" class="radio-container">Masculino
-                      <input id="n-value" type="radio" name="exist" onclick="lerRotulo(`#n`)"/>
+                      <input id="n-value" type="radio" name="exist" value="Masculino"/>
                       <span class="checkmark"></span>
                     </label>
                   </div>
@@ -175,7 +174,7 @@
             </div>
             <div>
               <button class="btn btn--radius-2 btn--blue button1" type="button"
-                id="btnSpeak" onmouseover="lerRotulo(`#btnSpeak`)">
+                id="btnSpeak" >
                 Enviar
               </button>
             </div>
@@ -190,12 +189,13 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/select2/select2.min.js"></script>
-  <script src="vendor/datepicker/moment.min.js"></script>
-  <script src="vendor/datepicker/daterangepicker.js"></script>
-  <script src="js/global.js"></script>
-  <script src="./js/bootstrap.min.js"></script>
+  <script src="../vendor/jquery/jquery.min.js"></script>
+  <script src="../vendor/select2/select2.min.js"></script>
+  <script src="../vendor/datepicker/moment.min.js"></script>
+  <script src="../vendor/datepicker/daterangepicker.js"></script>
+  <script src="./assets/js/global.js"></script>
+  <script src="./assets/js/bootstrap.min.js"></script>
+  <script type="module" src="../src/main.js" defer></script>
 </body>
 
 </html>
