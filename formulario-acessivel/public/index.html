@@ -1,0 +1,264 @@
+ <!DOCTYPE html>
+<html lang="pt=br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="Colorlib Templates" />
+  <meta name="author" content="Colorlib" />
+  <meta name="keywords" content="Colorlib Templates" />
+
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link href="./assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+
+
+  <title>Formulario Acessivel</title>
+
+  <link href="../vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all" />
+  <link href="../vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all" />
+  <!-- Font special for pages-->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i"
+    rel="stylesheet" />
+
+  <!-- Vendor CSS-->
+  <link href="../vendor/select2/select2.min.css" rel="stylesheet" media="all" />
+  <link href="../vendor/datepicker/daterangepicker.css" rel="stylesheet" media="all" />
+
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/css/bootstrap.css">
+  <link href="./assets/css/main.css" rel="stylesheet" media="all" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.min.js"></script>
+
+  
+
+  <script type="text/javascript" defer>
+    $("#telefone-value").mask("(00) 0000-00000");
+    $("#cpf-value").mask("000.000.000-00");
+  </script>
+
+</head>
+
+<body>
+  <div class="page-wrapper bg-gra-03 p-t-45 p-b-50">
+    <div class="wrapper wrapper--w790">
+      <div class="card card-5">
+        <div class="card-heading">
+          <h1 class="title">
+            Formulário acessível
+          
+              <img class="img-song" src="./assets/img/audio.png" /></button>
+          </h1>
+        </div>
+        <div class="card-body">
+          <form method="POST">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6">
+                  <label class="rotulo" id="primeiro-nome">Primeiro nome:
+                    <img src="./assets/img/audio2.png" class="default" aria-hidden="true" tabindex="0"></img>
+                  </label>
+                  <div class="input-group mb-3">
+                    <input type="text" class="form-control" type="text" name="first_name" id="nome-value">
+                    <div class="input-group-append">
+                      <button class="btn btn-inp" type="button">
+                        <img src="./assets/img/audio2.png" class="default" aria-hidden="true" tabindex="0"
+                          ></img>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <label class="rotulo" id="segundo-nome">Segundo nome:
+                    <img src="./assets/img/audio2.png" class="default" aria-hidden="true" tabindex="0"
+                     ></img>
+                  </label>
+                  <div class="input-group mb-3">
+                    <input type="text" class="form-control" type="text" name="first_name" id="seg-value">
+                    <div class="input-group-append">
+                      <button class="btn btn-inp" type="button">
+                        <img src="./assets/img/audio2.png" class="default" aria-hidden="true" tabindex="0"
+                          ></img>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <label class="rotulo" id="cpf">CPF:
+                    <img src="./assets/img/audio2.png" class="default" aria-hidden="true" tabindex="0"
+                      ></img>
+                  </label>
+                  <div class="input-group mb-3">
+                    <input type="text" class="form-control" type="text" name="first_name" id="cpf-value">
+                    <div class="input-group-append">
+                      <button class="btn btn-inp" type="button">
+                        <img src="./assets/img/audio2.png" class="default" aria-hidden="true" tabindex="0"
+                          ></img>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <label class="rotulo" id="dtnasc">Data de nascimento:
+                    <img src="./assets/img/audio2.png" class="default" aria-hidden="true" tabindex="0"
+                      ></img>
+                  </label>
+                  <div class="input-group mb-3">
+                    <input class="rotulo datepicker form-control" type="date" id="dtNasc-value" name="dia">
+                    <div class="input-group-append">
+                      <button class="btn btn-inp" type="button">
+                        <img src="./assets/img/audio2.png" class="default" aria-hidden="true" tabindex="0"
+                          ></img>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <label class="rotulo" id="email">E-mail:
+                    <img src="./assets/img/audio2.png" class="default" aria-hidden="true" tabindex="0"
+                      ></img>
+                  </label>
+                  <div class="input-group mb-3">
+                    <input type="text" class="form-control" id="email-value">
+                    <div class="input-group-append">
+                      <button class="btn btn-inp" type="button">
+                        <img src="./assets/img/audio2.png" class="default" aria-hidden="true" tabindex="0"
+                          ></img>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <label class="rotulo" id="tel">Telefone:
+                    <img src="./assets/img/audio2.png" class="default" aria-hidden="true" tabindex="0"
+                      ></img>
+                  </label>
+                  <div class="input-group mb-3">
+                    <input id="telefone-value" class="form-control">
+                    <div class="input-group-append">
+                      <button class="btn btn-inp" type="button">
+                        <img src="./assets/img/audio2.png" class="default" aria-hidden="true" tabindex="0"
+                         ></img>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <label id="sexo" class="label label--block" >Sexo: 
+                    <img src="./assets/img/audio2.png" class="default" aria-hidden="true" tabindex="0"
+                      ></img>
+                  </label>
+                  <div class="p-t-15">
+                    <label id="s" class="radio-container m-r-55">Feminino
+                      <input id="s-value" type="radio" checked="checked" name="exist" value="Feminino"/>
+                      <span class="checkmark"></span>                      
+                    </label>
+                    <label id="n" class="radio-container">Masculino
+                      <input id="n-value" type="radio" name="exist" value="Masculino"/>
+                      <span class="checkmark"></span>
+                    </label>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <label id="sexo" class="label label--block">Estado:
+                    <img src="./assets/img/audio2.png" class="default" aria-hidden="true" tabindex="0"></img>
+                  </label>
+                  <select id="estado" class="form-control" name="estado">
+                    <option value="Acre">Acre</option>
+                    <option value="Alagoas">Alagoas</option>
+                    <option value="Amapá">Amapá</option>
+                    <option value="Amazonas">Amazonas</option>
+                    <option value="Bahia">Bahia</option>
+                    <option value="Ceará">Ceará</option>
+                    <option value="Distrito Federal">Distrito Federal</option>
+                    <option value="Espírito Santo">Espírito Santo</option>
+                    <option value="Goiás">Goiás</option>
+                    <option value="Maranhão">Maranhão</option>
+                    <option value="Mato Grosso">Mato Grosso</option>
+                    <option value="Mato Grosso do Sul">Mato Grosso do Sul</option>
+                    <option value="Minas Gerais">Minas Gerais</option>
+                    <option value="Pará">Pará</option>
+                    <option value="Paraíba">Paraíba</option>
+                    <option value="Paraná">Paraná</option>
+                    <option value="Pernambuco">Pernambuco</option>
+                    <option value="Piauí">Piauí</option>
+                    <option value="Rio de Janeiro">Rio de Janeiro</option>
+                    <option value="Rio Grande do Norte">Rio Grande do Norte</option>
+                    <option value="Rio Grande do Sul">Rio Grande do Sul</option>
+                    <option value="Rondônia">Rondônia</option>
+                    <option value="Roraima">Roraima</option>
+                    <option value="Santa Catarina">Santa Catarina</option>
+                    <option value="São Paulo">São Paulo</option>
+                    <option value="Sergipe">Sergipe</option>
+                    <option value="Tocantins">Tocantins</option>
+                  </select>
+                </div> 
+              </div>
+
+              <div class="row">
+                  <div class="col-md-6">
+                      <label id="sexo" class="label label--block" >Cursos: 
+                          <img src="./assets/img/audio2.png" class="default" aria-hidden="true" tabindex="0"
+                            ></img>
+                        </label>
+                      <ul class="list-group">
+                          <li class="list-group-item rounded-0">
+                              <div class="custom-control custom-checkbox">
+                                  <input class="custom-control-input" id="customCheck1" type="checkbox" value="React">
+                                  <label class="cursor-pointer font-italic d-block custom-control-label" for="customCheck1">React</label>
+                              </div>
+                          </li>
+                          <li class="list-group-item">
+                              <div class="custom-control custom-checkbox">
+                                  <input class="custom-control-input" id="customCheck2" type="checkbox" value="Angular">
+                                  <label class="cursor-pointer font-italic d-block custom-control-label" for="customCheck2">Angular</label>
+                              </div>
+                          </li>
+                          <li class="list-group-item">
+                              <div class="custom-control custom-checkbox">
+                                  <input class="custom-control-input" id="customCheck3" type="checkbox" value="Desenvolvimento Web Full Stack">
+                                  <label class="cursor-pointer font-italic d-block custom-control-label" for="customCheck3">Desenvolvimento Web Full Stack</label>
+                              </div>
+                          </li>
+                      </ul>
+                  </div>
+                </div>
+            </div>
+            <div>
+              <button class="btn btn--radius-2 btn--blue button1" type="button"
+                id="btnSpeak" >
+                Enviar
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+  <script src="../vendor/jquery/jquery.min.js"></script>
+  <script src="../vendor/select2/select2.min.js"></script>
+  <script src="../vendor/datepicker/moment.min.js"></script>
+  <script src="../vendor/datepicker/daterangepicker.js"></script>
+  <script src="./assets/js/global.js"></script>
+  <script src="./assets/js/bootstrap.min.js"></script>
+  <script type="module" src="../src/main.js" defer></script>
+</body>
+
+</html>
